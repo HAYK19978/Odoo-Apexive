@@ -1,0 +1,14 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+  errors:
+    todo: warning
+    unused_import: warning
+
+linter:
+  rules:
+    - prefer_const_constructors
+    - avoid_unnecessary_containers
+    - prefer_final_locals
